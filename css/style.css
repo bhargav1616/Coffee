@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  background-image: url("/img/header-bg.jpg");
+  background-size: cover;
+  min-height: 650px;
+  background-repeat: no-repeat;
+}
+
+.logo-section {
+  margin-top: 20px;
+}
+
+.logo-img {
+  font-size: 50px;
+}
+
+.logo-detail {
+  text-transform: uppercase;
+  color: white;
+  display: block;
+}
+
+.header-right {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-top: 30px;
+}
+
+.header-right-detail {
+  color: transparent;
+  font-size: 4rem;
+  -webkit-text-stroke: 1px white;
+}
+
+.lilita-one-regular {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 1200;
+  font-style: normal;
+}
+
+.buy-now-btn {
+  font-size: 20px;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 30px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding-left: 50px;
+}
+
+nav ul li a:hover{
+    background-color: #B68834;
+}
+
+.second-section {
+  margin: 30px;
+}
+
+.left-part {
+  padding: 20px 0 0 50px;
+}
+
+.third-section {
+  background-image: url("/img/menu-bg.jpg");
+}
+
+.single-menu {
+  background-color: #fff;
+  box-shadow: 0px 10px 30px 0px rgba(182, 136, 52, 0.2);
+  border-radius: 10px;
+  padding: 30px 30px;
+  margin-bottom: 30px;
+}
+
+.title{
+    margin: 50px 0;
+}
+
+.g1-img{
+    padding-bottom: 20px;
+}
+
+.g4-and-g5{
+    padding-top: 20px;
+}
+
+.g5{
+    padding-left: 10px;
+}
+
+.gallery-area{
+    margin: 50px 0;
+}
+
+.start-review-area{
+    background-color: #B68834;
+    padding: 30px 0 50px 0;
+}
+
+.travel{
+    border: none;
+    border-radius: 20px;
+    border: 1px solid rgb(184, 180, 180);
+    padding: 5px 15px;
+}
+
+footer{
+    width: 100%;
+    background-image: url(../img/footer-bg.jpg);
+    background-size: cover;
+    padding: 200px;
+    padding-bottom:70px;
+    color: white;
+    /* min-height: 400px; */
+}
+
+.input-type{
+    padding: 5px 50px 5px 5px;
+}
+
+.send-btn{
+    padding: 7px 10px;
+    border: none;
+    background-color: #B68834;
+}
